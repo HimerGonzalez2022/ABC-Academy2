@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url(WhatsApp\ Image\ 2023-10-22\ at\ 22.07.10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Dictionary Styles */
+.dictionary {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Search Styles */
+#search {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button {
+    width: 25%;
+    background-color: #5da1d5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #d2b5ff;
+}
+
+/* Result Styles */
+#result {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Heading Styles */
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.5;
+    color: #333;
+}
