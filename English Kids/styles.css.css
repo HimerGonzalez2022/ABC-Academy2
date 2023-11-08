@@ -1,0 +1,192 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   background: url("logo1.jpg");
+   background-size: cover;
+    color: #333; /* Texto negro */
+    margin: 0;
+}
+.hed{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 150px;
+  }
+  
+  #floating-image {
+    animation: floatAnimation 5s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px); 
+    }
+  }
+
+.cajas {
+    padding-left: 120px;
+    padding-top: 20PX;
+    display: flex;
+  }
+
+  .cajas2 {
+    padding-left: 350px;
+    padding-top: 20PX;
+    display: flex;
+  }
+  .box {
+    border-radius: 25px;
+    background-color: aliceblue;
+    width:200px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 10px; /* Margen derecho para separar los contenedores */
+  }
+
+  .box2 {
+    border-radius: 25px;
+    background-color: aliceblue;
+    width:200px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 10px; /* Margen derecho para separar los contenedores */
+  }
+  /* Estilos CSS para la última caja (eliminar el margen derecho) */
+  .box:last-child {
+    margin-right: 0;
+  }
+
+  /* Estilos CSS para las imágenes */
+  .box img {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  h3{
+    color: salmon;
+  }
+nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff8f56; /* Texto naranja */
+}
+
+section p {
+    color: #333; /* Texto negro */
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #ff8f56; /* Enlaces naranjas */
+    text-decoration: none;
+}
+
+footer{
+  width: 100%;
+  padding: 50px 0px;
+ 
+
+  /*background-color: #d0f0f8;
+  -webkit-mask-image: url("../Images/background-footer.svg");
+  mask-image: url("../Images/background-footer.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;*/
+}
+
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.box__footer .logo img{
+  width: 180px;
+}
+
+.box__footer .terms{
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box__footer h2{
+  margin-bottom: 30px;
+  color: #4070f4;
+  font-weight: 700;
+}
+
+.box__footer a{
+  margin-top: 10px;
+  color: #4070f4;
+  font-weight: 600;
+}
+
+.box__footer a:hover{
+  opacity: 0.8;
+}
+
+.box__footer a .fab{
+  font-size: 20px;
+}
+
+.box__copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p{
+  margin-top: 20px;
+  color: #4070f4;
+}
+
+.box__copyright hr{
+  border: none;
+  height: 1px;
+  background-color: #4070f4;}
